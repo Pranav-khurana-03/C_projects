@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1620649794 source:c:\users\khura\cprojects\expression_calculator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ctype.h>
+

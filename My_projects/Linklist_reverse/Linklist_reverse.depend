@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620387505 source:c:\users\khura\cprojects\linklist_reverse\main.c
+	<stdio.h>
+	<stdlib.h>
+

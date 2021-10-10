@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616308158 source:c:\users\khura\cprojects\grading_students_hackerrank\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

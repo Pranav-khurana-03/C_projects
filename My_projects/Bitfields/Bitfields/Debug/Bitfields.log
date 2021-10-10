@@ -1,0 +1,6 @@
+﻿  Bitfields.cpp
+C:\Users\khura\source\repos\Bitfields\Bitfields\Bitfields.cpp(14,8): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\khura\source\repos\Bitfields\Bitfields\Bitfields.cpp(16,8): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\khura\source\repos\Bitfields\Bitfields\Bitfields.cpp(18,8): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\khura\source\repos\Bitfields\Bitfields\Bitfields.cpp(20,8): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\khura\source\repos\Bitfields\Bitfields\Bitfields.cpp(14): error C4700: uninitialized local variable 'marks' used

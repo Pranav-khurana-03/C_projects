@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1615803532 source:c:\users\khura\cprojects\diagonaldiff_hackerrank\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

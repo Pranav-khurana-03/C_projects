@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1625309954 source:c:\users\khura\cprojects\merge_k_linklists_sorted\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621492413 source:c:\users\khura\cprojects\dynamic_array_in_c_hackerrank\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620554381 source:c:\users\khura\cprojects\string_reversal_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+

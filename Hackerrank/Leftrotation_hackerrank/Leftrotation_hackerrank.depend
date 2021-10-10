@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1616392050 source:c:\users\khura\cprojects\leftrotation_hackerrank\main.c
+	<stdio.h>
+	<stdlib.h>
+

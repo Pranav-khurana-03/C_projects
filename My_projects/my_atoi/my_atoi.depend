@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1625311672 source:c:\users\khura\cprojects\my_atoi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

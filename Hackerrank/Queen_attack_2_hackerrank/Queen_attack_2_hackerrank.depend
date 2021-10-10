@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616736803 source:c:\users\khura\cprojects\queen_attack_2_hackerrank\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620383211 source:c:\users\khura\cprojects\unsorted_linklist_sort\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1618426944 source:c:\users\khura\cprojects\pattern_printing_hackerrank\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

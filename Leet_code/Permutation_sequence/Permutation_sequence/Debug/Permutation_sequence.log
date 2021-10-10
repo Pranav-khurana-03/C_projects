@@ -1,0 +1,3 @@
+﻿  Permutation_sequence.cpp
+C:\Users\khura\source\repos\Leet_code\Permutation_sequence\Permutation_sequence\Permutation_sequence.cpp(82,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Permutation_sequence.vcxproj -> C:\Users\khura\source\repos\Leet_code\Permutation_sequence\Debug\Permutation_sequence.exe
