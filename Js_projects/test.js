@@ -1,0 +1,1 @@
+document.write("\nWhat is being printed now is from the external script\nThis line should have been in a new line\n");
