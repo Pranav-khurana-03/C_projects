@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int inversion = 0;
 
 int * merge(int *arr1, int* arr2, int size1, int size2)
 {
@@ -13,7 +12,6 @@ int * merge(int *arr1, int* arr2, int size1, int size2)
 		{
 			result[index] = arr2[j];
 			j++;
-			inversion+=size1-i;
 		}
 		else
 		{
@@ -59,6 +57,9 @@ int* mergesort(int* arr, int size)
 int main()
 {
 	int arr[] = {2, 4, 8, 10, 3, 4};
-	int* res = mergesort(arr,4);
-	printf("%d\n", inversion);
+	int* res = mergesort(arr,6);
+	for(int i = 0; i<6;i++)
+	{
+		printf("%d", res[i]);
+	}
 }
