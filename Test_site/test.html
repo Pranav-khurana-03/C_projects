@@ -3,6 +3,13 @@
     <head>
         <title>My Page</title>
         <style>
+            h1.main
+            {
+                font-weight: bolder;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-style: italic;
+                font-size: 1px;
+            }
             p {
                 font-size: 50px;
                 color: cadetblue;
@@ -16,10 +23,21 @@
             body {
                 background-color:darkblue;
             }
+            .blue{
+                color:aqua;
+            }
+            #font {
+                font-style: italic;
+                font-size: 100px;
+            }
         </style>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <header>
+        <h1 id="top" class="main">Hello World</h1>
+        </header>
         <p>How are ya?</p>
+        <div class="blue" id="font">HEHE</div>
+        <a href="#top">TOP</a>
     </body>
 </html>
