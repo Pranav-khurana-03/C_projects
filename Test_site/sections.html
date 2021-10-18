@@ -3,38 +3,42 @@
     <head>
         <title>My Page</title>
     </head>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        a:visited {
+            color: blue;
+        }
+
+        div {
+            margin: auto;
+            width: 50%;
+        }
+        #button li {
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            list-style: none;
+            display: inline-block;
+            background-color: white;
+            color: black;
+            padding: 12px 10px 10px 10px;
+            border: 2px black solid;
+
+        }
+    </style>
     <body>
+        
         <h1 id="top" style="text-align: center;">My Test Page</h1>
-        <h1>    <ol>
-                <li><a href="#Section1" title="Section 1" target="_blank">Section 1</a></li>
-                <li><a href="#Section2" title="Section 2">Section 2</a></li>
-                <li><a href="#Section3" title="Section 3">Section 3</a></li>
-            </ol>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="">
-            <section id="Section1">
-                a <br>
-                b <br>
-                c <br>
-                d <br>
-                e <br>
-            </section>
-            <hr>
-            <section id="Section2">
-                a <br>
-                b <br>
-                c <br>
-                d <br>
-                e <br>
-            </section>
-            <hr>
-            <section id="Section3">
-                a <br>
-                b <br>
-                c <br>
-                d <br>
-                e <br>
-            </section>
-        </h1>
-        <footer><a href="#top">Go to top</a></footer>
+        <div>
+        <ul id="button">
+            <li>Page1</li>
+            <li>Page2</li>
+            <li>Page3</li>
+            <li>Page4</li>
+            <li>Page5</li>
+        </ul>
+        </div>
     </body>
 </html>
