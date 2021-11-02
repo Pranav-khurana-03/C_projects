@@ -34,39 +34,11 @@ void move_element(char* arr, int des, int src)
 	arr[index] = tmp;
 }
 
-/*char* combinations(short int n, int k)
-{
-	char* str;
-	str = (char*)malloc(sizeof(char) * n+1);
-	assert(str);
-	memset(str, 0, sizeof(char) * n + 1);
-	short int index;
-	char i = '1';
-	for (index=0;index<n;index++, i++)
-	{
-		str[index] = i;
-	}
-	double result;
-	for (index = 0;index <= n;index++)
-	{
-		float num = (float)fact(n - 1);
-		result = ceil(k / num -1);
-		int dest = (int)result;
-		move_element(str, index, dest);
-		if ((int)num * (int)result)
-		{
-			k = k - ((int)num * (int)result);
-		}
-		n--;
-	}
-	return str;
-}*/
-
-
 char* combinations(int n, int k)
 {
 	k--;
 	char* str = (char*)malloc((sizeof(char)) * (n + 1));
+	memset(str, 0, sizeof(char)*n+1);
 	int index;
 	for (index=0;index < n;index++)
 	{
@@ -87,29 +59,11 @@ char* combinations(int n, int k)
 	return str;
 }
 
-/*
-* 1234
-* 1243
-* 1324
-* 1342
-* 1423
-* 1432
-* 2134
-* 2143
-* 2314
-* 2341
-* 2413
-* 2431
-*/
-
 int main()
 {
 	int n, k;
 	char * res;
 	scanf("%d %d", &n, &k);
 	res = combinations(n, k);
-	for(int i =0;i<n+5;i++)
-	{
-		printf("%c", res[i]);
-	}
+	printf("%s", res);
 }
