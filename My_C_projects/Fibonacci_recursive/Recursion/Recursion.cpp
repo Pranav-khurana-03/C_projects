@@ -1,25 +1,19 @@
 #include<stdio.h>
 
-int fibo(int ub)
+int fibo(int num)
 {
-	int sum = 0;
-	if (ub <= 1)
-	{
-		return 0;
-	}
-	else if (ub == 2)
-	{
-		return 1;
-	}
-	int num1 = fibo(ub - 2);
-	int num2 = fibo(ub - 1);
-	sum = num1 + num2;
-	//printf("%d: %d \n", ub,sum);
-	return sum;
-
+  if(num==1)
+    return 1;
+  if(num==0)
+    return 0;
+  return fibo(num-1) + fibo(num-2);
 }
 
 int main()
 {
-	printf("%d", fibo(4));
+  int i;
+  while(true)
+  {
+    printf("i*i = %d\n", 5);
+  }
 }
