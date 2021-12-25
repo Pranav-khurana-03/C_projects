@@ -30,7 +30,7 @@ void add_node(struct ListNode** head, int num)
 }
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
-	int sum = 0;
+//int sum = 0;
 	short int carry = 0;
 	struct ListNode* tmp, * prev, * head;
 	tmp = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -113,18 +113,19 @@ int main()
 	struct ListNode* head2 = NULL;
 	int num = 0;
 	printf("For list 1: \n");
-	scanf_s("%d", &num);
+	scanf("%d", &num);
 	while (num != -1)
 	{
 		add_node(&head1, num);
-		scanf_s("%d", &num);
+		scanf("%d", &num);
 	}
 	printf("For list 2: \n");
-	scanf_s("%d", &num);
+
+	scanf("%d", &num);
 	while (num != -1)
 	{
 		add_node(&head2, num);
-		scanf_s("%d", &num);
+		scanf("%d", &num);
 	}
 	printf("\n");
 	struct ListNode* result = addTwoNumbers(head1, head2);
