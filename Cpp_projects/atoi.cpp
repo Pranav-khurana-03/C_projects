@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include<iostream>
 
 double my_atoi(char * str, bool * status = NULL)
 {

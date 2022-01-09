@@ -25,6 +25,13 @@ class Node {
 		val = data;
 		next = top;
 	}
+	Node()
+	{
+	}
+	~Node()
+	{
+		cout<<"DELETED :("<<endl;
+	}
 };
 
 class Stack {
